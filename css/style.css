@@ -1,6 +1,110 @@
-body {
-  width: 1200px;
+:root {
+  --primary-title-color:#ffffff;
+  --secondary-title-color:#212121;
+  --primary-text-color:#757575;
+  --secondary-text-color:rgba(255, 255, 255, 0.6);
 }
-h4 {
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+ul {
   list-style: none;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*ХЕДЕР*/
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container {
+  display:flex;
+}
+.logo {
+  color: #212121;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.studio-portfolio-contacts {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.nav-items {
+  margin-left: 50px;
+  position: relative;
+}
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.nav-link-active {
+  color: #2196f3;
+}
+
+.address-list {
+  display: flex;
+  margin-top: 32px;
+  margin-left: auto;
+}
+.header-address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.header-address:hover,
+.header-address:focus {
+  color: #2196f3;
+}
+.header-telephone {
+  margin-left: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
