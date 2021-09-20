@@ -234,3 +234,31 @@ justify-content: space-between;
 
 /*ФУТЕР*/
 
+.footer-container {
+  height:252px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.footer-address {
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-mail-telephone {
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
